@@ -1,0 +1,35 @@
+/* style.css */
+
+.container{
+    display:flex;
+    flex-direction: row;
+   justify-content: center;
+   border: solid black;
+   height: 50vh;
+  flex-wrap:  wrap;
+  gap: 20px;
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: hsl(337, 100%, 70%);
+    align-self: flex-end;
+   
+}
+#box2{
+    background-color: hsl(52, 100%, 70%);
+}
+#box3{
+    background-color: hsl(111, 100%, 70%);
+}
+#box4{
+    background-color: hsl(201, 100%, 70%);
+    align-self: center;
+   
+}
